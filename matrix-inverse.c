@@ -1,5 +1,5 @@
-/* Read input from STDIN. Print your output to STDOUT*/
 #include<stdio.h>
+
 int main(int argc, char *a[])
 {
 	int i=0, j=0,n,m;
@@ -21,7 +21,7 @@ int main(int argc, char *a[])
 			}
 		}
 		if(i<m-1){
-       printf("\n");
-     }
+      		    printf("\n");
+     		}
 	}
 }
